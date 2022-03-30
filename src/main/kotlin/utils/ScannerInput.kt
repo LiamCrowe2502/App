@@ -33,6 +33,7 @@ object ScannerInput {
                 System.err.println("\tEnter a number please.")
             }
         } while (true)
+
     }
 
     /**
