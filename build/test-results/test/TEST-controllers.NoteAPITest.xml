@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="controllers.NoteAPITest" tests="11" skipped="0" failures="2" errors="0" timestamp="2022-03-31T20:13:27" hostname="LAPTOP-4TO98SC3" time="0.117">
+<testsuite name="controllers.NoteAPITest" tests="11" skipped="0" failures="2" errors="0" timestamp="2022-04-01T11:22:37" hostname="LAPTOP-4TO98SC3" time="0.097">
   <properties/>
-  <testcase name="listActiveNotes returns no active notes stored when ArrayList is empty()" classname="controllers.NoteAPITest" time="0.054"/>
-  <testcase name="listNotesBySelectedPriority returns No Notes when ArrayList is empty()" classname="controllers.NoteAPITest" time="0.002"/>
+  <testcase name="listActiveNotes returns no active notes stored when ArrayList is empty()" classname="controllers.NoteAPITest" time="0.042"/>
+  <testcase name="listNotesBySelectedPriority returns No Notes when ArrayList is empty()" classname="controllers.NoteAPITest" time="0.0"/>
   <testcase name="adding a Note to a populated list adds to ArrayList()" classname="controllers.NoteAPITest" time="0.001"/>
   <testcase name="listAllNotes returns No Notes Stored message when ArrayList is empty()" classname="controllers.NoteAPITest" time="0.001"/>
-  <testcase name="listActiveNotes returns active notes when ArrayList has active notes stored()" classname="controllers.NoteAPITest" time="0.004">
+  <testcase name="listActiveNotes returns active notes when ArrayList has active notes stored()" classname="controllers.NoteAPITest" time="0.003">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;3&gt; but was: &lt;5&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;3&gt; but was: &lt;5&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -109,10 +109,10 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="listArchivedNotes returns no archived notes when ArrayList is empty()" classname="controllers.NoteAPITest" time="0.002"/>
-  <testcase name="listNotesBySelectedPriority returns all notes that match that priority when notes of that priority exist()" classname="controllers.NoteAPITest" time="0.043"/>
-  <testcase name="listNotesBySelectedPriority returns no notes when no notes of that priority exist()" classname="controllers.NoteAPITest" time="0.001"/>
-  <testcase name="listArchivedNotes returns archived notes when ArrayList has archived notes stored()" classname="controllers.NoteAPITest" time="0.001">
+  <testcase name="listArchivedNotes returns no archived notes when ArrayList is empty()" classname="controllers.NoteAPITest" time="0.001"/>
+  <testcase name="listNotesBySelectedPriority returns all notes that match that priority when notes of that priority exist()" classname="controllers.NoteAPITest" time="0.036"/>
+  <testcase name="listNotesBySelectedPriority returns no notes when no notes of that priority exist()" classname="controllers.NoteAPITest" time="0.0"/>
+  <testcase name="listArchivedNotes returns archived notes when ArrayList has archived notes stored()" classname="controllers.NoteAPITest" time="0.002">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;2&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;2&gt; but was: &lt;0&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -216,7 +216,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="listAllNotes returns Notes when ArrayList has notes stored()" classname="controllers.NoteAPITest" time="0.0"/>
+  <testcase name="listAllNotes returns Notes when ArrayList has notes stored()" classname="controllers.NoteAPITest" time="0.003"/>
   <testcase name="adding a Note to an empty list adds to ArrayList()" classname="controllers.NoteAPITest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

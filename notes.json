@@ -1,1 +1,1 @@
-{"object-stream":{"list":[{"models.Note":{"noteTitle":"a","notePriority":4,"noteCategory":1,"isNoteArchived":false}}]}}
+{"object-stream":{"list":[{"models.Note":[{"noteTitle":"eat cookies","notePriority":5,"noteCategory":"cookie","isNoteArchived":true},{"noteTitle":"noij","notePriority":0,"noteCategory":"ininninu","isNoteArchived":false},{"noteTitle":"Bet on horses","notePriority":-8890,"noteCategory":"bet365","isNoteArchived":false}]}]}}

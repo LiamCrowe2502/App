@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="controllers.NoteAPITest$ArchiveNotes" tests="3" skipped="0" failures="1" errors="0" timestamp="2022-03-31T20:13:28" hostname="LAPTOP-4TO98SC3" time="0.003">
+<testsuite name="controllers.NoteAPITest$ArchiveNotes" tests="3" skipped="0" failures="1" errors="0" timestamp="2022-04-01T11:22:38" hostname="LAPTOP-4TO98SC3" time="0.006">
   <properties/>
-  <testcase name="archiving an active note that exists returns true and archives()" classname="controllers.NoteAPITest$ArchiveNotes" time="0.001"/>
+  <testcase name="archiving an active note that exists returns true and archives()" classname="controllers.NoteAPITest$ArchiveNotes" time="0.002"/>
   <testcase name="archiving a note that does not exist returns false()" classname="controllers.NoteAPITest$ArchiveNotes" time="0.001"/>
   <testcase name="archiving an already archived note returns false()" classname="controllers.NoteAPITest$ArchiveNotes" time="0.001">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
